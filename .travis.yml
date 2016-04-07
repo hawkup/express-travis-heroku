@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: nDEZnc9sUbabDFIWslpboN/lrV3zGeDdHSAcarzyYhXwSFOPqdBRbSPUpfK7ply2ddTIl5AL0ejV9JvGusJZiUejbAORbsDtwAMf50/UkE8vz4BPbGJqT4QB/t0NMs3oycfsm51WvxEZJlpqbugEtclKqyvCGHfLlR11YU04ZeUWVtMq7hanLTOH+anODWAuXK0UHc3J+aNWXgi7WlVo77bhRnoa1sJ6UCB1CE1EuMzUr6dok3+PVGED+VQPeiYb1Ixdqdmu3R0NPPaeeTln0I7qYLQf31cghsWpI15d6GFbuAWuJUu7P/nrpuxEAguLsYEUicz+Tsb75Ujd2zd6OqO8k9uf/GiGec+ZFK3aCR03ZUwy6cpJrEeSq0o/x+HBaYqy911YKi/hJYnRguwk0a/NHM8lV1jbHiaSN1HpzlmfafGf62XLjMKd4HrjK0HVQWeSkYKuCVr6XjzLbY1Yk8UqWn6+xVafh9eWsji0w+GwOZr4Jcq0/nH5DwKtkxVJTQWjvLfUwcnTq8A+9s4kgFSHEGnzXCxuQQRDQ4gxc3VJz4v390eXCW7GEXhy7+9qQe/HhMMzjiINFQgWXGE/rC0ZUmeKV+ETodWV6gkTF7Ekj4BdAsz1LNJOqXc8am2aNoTqGyEtBIpc/37d5/Af1WfVEQjZU0ZOCPP3bOInflg=
+  app: express-travis-heroku
+  on:
+    repo: hawkup/express-travis-heroku
