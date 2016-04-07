@@ -4,7 +4,8 @@
   "description": "Test Travis CI to deploy Express to Heroku",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha test.js"
   },
   "keywords": [
     "express",
@@ -15,5 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hawkup/express-travis-heroku.git"
   }
 }
