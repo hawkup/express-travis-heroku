@@ -3,7 +3,7 @@ node_js:
   - "0.12"
 
 script: "npm run-script test-travis"
-after_script: "npm run-script coveralls"
+after_success: "npm run-script coveralls"
 
 deploy:
   provider: heroku
