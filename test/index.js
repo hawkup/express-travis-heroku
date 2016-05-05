@@ -1,5 +1,5 @@
 var request = require('supertest');
-var app = require('./index').app;
+var app = require('../index').app;
 
 describe('GET index', function () {
   it('response ok', function (done) {
